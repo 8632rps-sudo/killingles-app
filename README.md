@@ -1,12 +1,20 @@
-# killingles-app
-Aplicativo mobile Flutter para o curso Killingles
-# Se não tiver Flutter instalado:
-# https://flutter.dev/docs/get-started/install
+# Killingles 🚀
 
-# Clone e instale
-git clone https://github.com/8632rps-sudo/killingles-app.git
-cd killingles-app
-flutter pub get
+App SaaS de aprendizado de inglês com IA.
 
-# Rodar no emulador
-flutter run
+## Funcionalidades
+- Chat com IA
+- Sistema de planos
+- Login seguro
+- Controle de uso
+
+## Como rodar
+Backend:
+cd backend
+npm install
+node server.js
+
+Frontend:
+cd frontend
+npm install
+npm run dev
